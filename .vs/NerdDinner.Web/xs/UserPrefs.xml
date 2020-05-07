@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{B975788E-3725-4492-83E8-43D7D6FAC45C}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="NerdDinner.Web/obj/project.assets.json">
     <Files>
       <File FileName="NerdDinner.Web/Data/ApplicationDbContext.cs" Line="14" Column="1" />
       <File FileName="NerdDinner.Web/Areas/Identity/Pages/_ViewStart.cshtml" />
@@ -46,27 +46,17 @@
       <File FileName="NerdDinner.Web/wwwroot/images/nerd.jpg" />
       <File FileName="NerdDinner.Web/wwwroot/images/logo.png" />
       <File FileName="NerdDinner.Web/Views/Shared/_MapListPartial.cshtml" />
+      <File FileName="NerdDinner.Web/obj/Debug/netcoreapp3.1/NerdDinner.Web.AssemblyInfo.cs" Line="16" Column="12" />
+      <File FileName="NerdDinner.Web/obj/project.assets.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="NerdDinner.Web" expanded="True" selected="True">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="NerdDinner.Web" expanded="True">
             <Node name="NerdDinner.Web" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Account" expanded="True" />
-                <Node name="Dinners" expanded="True" />
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-                <Node name="images" expanded="True" />
-                <Node name="lib" expanded="True" />
+              <Node name="obj" expanded="True">
+                <Node name="project.assets.json" selected="True" />
               </Node>
             </Node>
           </Node>

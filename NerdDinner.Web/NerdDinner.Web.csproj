@@ -27,4 +27,60 @@
   <ItemGroup>
     <Folder Include="Views\Dinners\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\NerdDinner.Web.csproj.nuget.cache" />
+    <None Include="obj\NerdDinner.Web.csproj.nuget.g.props" />
+    <None Include="obj\NerdDinner.Web.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\project.assets.json" />
+    <None Include="obj\NerdDinner.Web.csproj.nuget.dgspec.json" />
+    <None Include="obj\NerdDinner.Web.csproj.EntityFrameworkCore.targets" />
+    <None Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.RazorTargetAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.RazorCoreGenerate.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.TagHelpers.output.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.genruntimeconfig.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.RazorAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.TagHelpers.input.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.pdb" />
+    <None Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.Views.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.Views.pdb" />
+    <None Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.csproj.FileListAbsolute.txt" />
+    <None Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.csproj.CopyComplete" />
+    <None Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\staticwebassets\NerdDinner.Web.StaticWebAssets.Manifest.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\staticwebassets\NerdDinner.Web.StaticWebAssets.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.RazorTargetAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.RazorAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\NerdDinner.Web.MvcApplicationPartsAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\_GlobalImport.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MapListPartial.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MapPartial.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Account\ExternalLoginConfirmation.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Account\ExternalLoginFailure.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Account\ConfirmEmail.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Dinners\AddDinner.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Dinners\MyDinner.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Dinners\Detail.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Dinners\DeleteDinner.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Dinners\EditDinner.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs" />
+  </ItemGroup>
 </Project>
