@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Nerd Dinner - Home";
+}
+@model List<Dinner>;
+
+
+<div class="container main-body">
+ 
+<div class="container main-head">
+    <div class="row">
+        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 nerd-text">
+            <img src="/images/caption.png" />
+        </div>
+       
+    </div>
+</div>
+<div class="container main-view">
+   
+        <div class="text-center">
+            <h2><i style="color:maroon">Find a Dinner</i></h2>
+        </div>
+   
+    <div class="row">
+
+        <div class="col-4">
+            <h4 style="color:maroon">Popular Dinners</h4>
+            @foreach (var dinner in Model)
+            {
+
+                <ul class=" dinner-list">
+                    <li>
+                        <div>
+                            <a asp-controller="Dinners" asp-action="Detail" asp-route-id="@dinner.DinnerId">@dinner.Title</a>
+                        </div>
+                        <div>
+                            <span><b>@dinner.EventDate.ToShortDateString()</b></span>
+                            <span> with </span>
+                            <span>@dinner.Rsvps.Count.ToString()</span>
+                            <span> RSVPs </span>
+                        </div>
+                    </li>
+                </ul>
+            }
+        </div>
+        <div class="col-8 ">
+
+            @await Html.PartialAsync("_MapPartial",@Model[0])
+        </div>
+
+    </div>
+</div>
+</div>
+

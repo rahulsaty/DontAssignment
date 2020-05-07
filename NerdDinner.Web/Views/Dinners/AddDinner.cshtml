@@ -1,0 +1,30 @@
+﻿@model Dinner;
+
+<div class="container main-view">
+   
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <h4 style="color:maroon">Host a Dinner</h4>
+
+            <form class="form-group" asp-controller="Dinners" asp-action="AddDinnerPost" method="post">
+
+                <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Title" name="Title">
+                <input type="datetime-local" class="form-control mb-2 mr-sm-2" placeholder="EventDate" name="EventDate">
+
+                <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Description" name="Description">
+
+                <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Address" name="Address">
+                <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Contact Phone" name="ContactPhone">
+                <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Latitude" name="Latitude">
+                <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Longitude" name="Longitude">
+
+                <button type="submit" class="btn btn-primary">Save</button>
+                <button type="button" class="btn btn-secondary">Cancel</button>
+            </form>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+            @await Html.PartialAsync("_MapPartial", new Dinner());;
+        </div>
+
+    </div>
+</div>

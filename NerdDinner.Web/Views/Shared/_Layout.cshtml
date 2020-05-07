@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html ng-app="nerdDinner">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+   
+</head>
+<body>
+ 
+
+    <header>
+        <div class="container">
+            <div class="row parent">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 ">
+                    <a href="/"><img class="logo" src="~/images/logo.png" /></a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-right child">
+                    @await Html.PartialAsync("_LoginPartial")
+                </div>
+            </div>
+        </div>
+        <div class="container">
+           
+
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm  border-bottom box-shadow mb-3">
+                <div class="container">
+                    
+                    <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="/">Find Dinner</a></li>
+                
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <li class="nav-item" role="presentation"><a class="nav-link" asp-controller="Dinners" asp-action="AddDinner">Host Dinner</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" asp-controller="Dinners" asp-action="MyDinner">My Dinners</a></li>
+
+
+                            }
+                            else
+                            {
+                                <li class="nav-item" role="presentation"><a class="nav-link" asp-controller="Account" asp-action="Login">Host Dinner</a></li>
+                            }
+                            <li class="nav-item" role="presentation"><a class="nav-link" asp-controller="Home" asp-action="about">About</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+   
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+  
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

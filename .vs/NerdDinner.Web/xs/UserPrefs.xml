@@ -1,0 +1,90 @@
+﻿<Properties StartupConfiguration="{B975788E-3725-4492-83E8-43D7D6FAC45C}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="NerdDinner.Web/Data/ApplicationDbContext.cs" Line="14" Column="1" />
+      <File FileName="NerdDinner.Web/Areas/Identity/Pages/_ViewStart.cshtml" />
+      <File FileName="NerdDinner.Web/appsettings.json" />
+      <File FileName="NerdDinner.Web/Program.cs" />
+      <File FileName="NerdDinner.Web/Startup.cs" />
+      <File FileName="NerdDinner.Web/Properties/launchSettings.json" />
+      <File FileName="NerdDinner.Web/Views/Home/Index.cshtml" />
+      <File FileName="NerdDinner.Web/Controllers/DinnersController.cs" />
+      <File FileName="NerdDinner.Web/wwwroot/js/site.js" />
+      <File FileName="NerdDinner.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js" />
+      <File FileName="NerdDinner.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" />
+      <File FileName="NerdDinner.Web/Views/_ViewImports.cshtml" />
+      <File FileName="NerdDinner.Web/Views/_ViewStart.cshtml" />
+      <File FileName="NerdDinner.Web/Views/_GlobalImport.cshtml" />
+      <File FileName="NerdDinner.Web/Views/Account/ConfirmEmail.cshtml" />
+      <File FileName="NerdDinner.Web/Views/Account/ExternalLoginConfirmation.cshtml" />
+      <File FileName="NerdDinner.Web/Views/Account/ExternalLoginFailure.cshtml" />
+      <File FileName="NerdDinner.Web/Views/Account/Login.cshtml" />
+      <File FileName="NerdDinner.Web/Views/Account/Register.cshtml" />
+      <File FileName="NerdDinner.Web/Views/Shared/_Layout.cshtml" />
+      <File FileName="NerdDinner.Web/Views/Shared/_LoginPartial.cshtml" />
+      <File FileName="NerdDinner.Web/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="NerdDinner.Web/Views/Shared/Error.cshtml" />
+      <File FileName="NerdDinner.Web/Controllers/AccountController.cs" />
+      <File FileName="NerdDinner.Web/Controllers/HomeController.cs" />
+      <File FileName="NerdDinner.Web/Controllers/RSVPController.cs" />
+      <File FileName="NerdDinner.Web/Views/Home/About.cshtml" />
+      <File FileName="NerdDinner.Web/Persistence/INerdDinnerRepository.cs" />
+      <File FileName="NerdDinner.Web/Persistence/NerdDinnerRepository.cs" />
+      <File FileName="NerdDinner.Web/Views/Dinners/EditDinner.cshtml" />
+      <File FileName="NerdDinner.Web/Models/Dinner.cs" />
+      <File FileName="NerdDinner.Web/Views/Dinners/DeleteDinner.cshtml" />
+      <File FileName="NerdDinner.Web/wwwroot/css/site.css" Line="17" Column="22" />
+      <File FileName="NerdDinner.Web/Views/Shared/_MapPartial.cshtml" />
+      <File FileName="NerdDinner.Web/Models/ApplicationUser.cs" />
+      <File FileName="NerdDinner.Web/Models/AccountViewModels.cs" />
+      <File FileName="NerdDinner.Web/Models/ErrorViewModel.cs" />
+      <File FileName="NerdDinner.Web/Models/Rsvp.cs" />
+      <File FileName="NerdDinner.Web/Models/SampleData.cs" />
+      <File FileName="NerdDinner.Web/Views/Dinners/MyDinner.cshtml" />
+      <File FileName="NerdDinner.Web/Views/Dinners/AddDinner.cshtml" />
+      <File FileName="NerdDinner.Web/Views/Dinners/Detail.cshtml" />
+      <File FileName="NerdDinner.Web/wwwroot/images/nerd.jpg" />
+      <File FileName="NerdDinner.Web/wwwroot/images/logo.png" />
+      <File FileName="NerdDinner.Web/Views/Shared/_MapListPartial.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NerdDinner.Web" expanded="True" selected="True">
+            <Node name="NerdDinner.Web" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Dinners" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="images" expanded="True" />
+                <Node name="lib" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.NerdDinner.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rahul.pandey/Documents/Assignment/DotnetAssignment/NerdDinner.Web/ng-apps/controllers/homeController.js" relfile="NerdDinner.Web/ng-apps/controllers/homeController.js" line="17" column="1" />
+      <Breakpoint file="/Users/rahul.pandey/Documents/Assignment/DotnetAssignment/NerdDinner.Web/ng-apps/controllers/homeController.js" relfile="NerdDinner.Web/ng-apps/controllers/homeController.js" line="49" column="1" />
+      <Breakpoint file="/Users/rahul.pandey/Documents/Assignment/DotnetAssignment/NerdDinner.Web/ng-apps/controllers/loginController.js" relfile="NerdDinner.Web/ng-apps/controllers/loginController.js" line="11" column="1" />
+      <Breakpoint file="/Users/rahul.pandey/Documents/Assignment/DotnetAssignment/NerdDinner.Web/ng-apps/services/mapService.js" relfile="NerdDinner.Web/ng-apps/services/mapService.js" line="28" column="1" />
+      <Breakpoint file="/Users/rahul.pandey/Documents/Assignment/DotnetAssignment/NerdDinner.Web/Views/Shared/_MapPartial.cshtml" relfile="NerdDinner.Web/Views/Shared/_MapPartial.cshtml" line="15" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

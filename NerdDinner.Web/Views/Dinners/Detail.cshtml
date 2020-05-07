@@ -1,0 +1,39 @@
+﻿@model Dinner;
+
+    <div class="container main-view">
+        <div class="row">
+
+            <div >
+                <ul class="detail">
+                    <li><h4 style="color:maroon">@Model.Title</h4></li>
+                    <li><b><span>When: </span></b><span>@Model.EventDate.ToShortDateString()</span></li>
+                    <li><b><span>Where: </span></b><span>@Model.Address</span></li>
+                    <li><b><span>Description: </span></b><span>@Model.Description</span></li>
+                    <li><b><span>Organizer: </span></b><span>@Model.UserName</span></li>
+                    <rsvp-section></rsvp-section>
+                    <li><b><span>Who's coming:</span></b></li>
+
+                </ul>
+                @if (ViewBag.isHost)
+                {
+                    <div class="row">
+                        <div>
+                            <form asp-controller="Dinners" asp-action="editdinner" asp-route-id="@Model.DinnerId">
+                                <button type="submit" class="btn btn-success m-4">Edit </button>
+                            </form>
+                        </div>
+                        <div>
+                            <form asp-controller="Dinners" asp-action="DeleteDinner" asp-route-id="@Model.DinnerId">
+                                <button type="submit" class="btn btn-danger m-4">Delete</button>
+                            </form>
+                        </div>
+                    </div>
+
+                }
+            </div>
+        </div>
+        <div >
+            @await Html.PartialAsync("_MapPartial",@Model)
+        </div>
+
+    </div>

@@ -1,0 +1,21 @@
+﻿@model List<Dinner>;
+
+<div class="container main-view">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h4 style="color:maroon">My Dinners</h4>
+            @foreach (var dinner in Model)
+            {
+                <ul class="dinner-list">
+                    <li>
+                        <a asp-controller="Dinners" asp-action="Detail" asp-route-id="@dinner.DinnerId"><b>@dinner.Title</b></a>
+                        <span> on </span>
+                        <span><b>@dinner.EventDate.ToShortDateString()</b></span>
+                        <span> at </span>
+                        <span>@dinner.Address</span>
+                    </li>
+                </ul>
+            }
+            </div>
+    </div>
+</div>

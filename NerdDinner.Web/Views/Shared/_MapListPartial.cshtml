@@ -1,0 +1,35 @@
+﻿
+@model List<Dinner>
+
+<div id="dvMap" class="nerd-map" />
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_ngoTftSnoCcKRmDhfJQ12v0RthRSw9o&callback=initMap"
+        async defer></script>
+<script>
+
+    function initMap() {
+
+         var lat = @(Model[0].Latitude) ==0 ?27.2038 :  @(Model[0].Latitude) ;
+        var lng =  @(Model[0].Longitude) ==0? 77.5011 : @(Model[0].Longitude);
+
+
+        var latlong = { lat, lng };
+        alert(latlong);
+
+        var map = new google.maps.Map(document.getElementById('dvMap'), {
+            zoom: 4,
+            center: latlong
+        });
+
+
+        var image = 'http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|FE7569';
+        var marker;
+        var length = '@Model.Count';
+        for(var data in '@Model') {
+
+             marker = new google.maps.Marker({
+                 position: new google.maps.LatLng(data.Latitude, data.Longitude),
+                 map: map,
+               icon: image
+      });
+
+    }</script>
